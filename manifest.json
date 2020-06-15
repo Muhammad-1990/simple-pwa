@@ -1,0 +1,26 @@
+{
+  "name": "Hello World",
+  "short_name": "Hello",
+  "description": "A hello world test app.",
+  "start_url": "/index.html?utm_source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "lang": "en-US",
+  "orientation": "portrait",
+  "background_color": "#03A9F4",
+  "theme_color": "#92ACBE",
+  "icons": [
+    {
+      "src": "/images/icon/manifest-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/images/icon/manifest-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ]
+}
